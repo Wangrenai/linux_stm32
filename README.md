@@ -1,4 +1,5 @@
-- libs目录放stm32固件库，src放用户源码，inc放用户头文件
+- OtherDemo存放其他工程模板
+- libs目录放stm32固件库，src放用户源码，inc放用户头文件,build放编译文件
 - Makefile.common文件，这个是通用Makefile文件
 - 编译固件库，将固件库编译成静态库，应用程序可以直接使用 `startup.c`
 - 建立`linker.ld`文件，根据芯片的内存以及flash容量
